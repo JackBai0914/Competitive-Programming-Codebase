@@ -1,0 +1,1290 @@
+Last login: Sun Apr 21 17:29:48 on ttys000
+XingjiandeMacBook-Pro:~ jackbai$ cd Desktop
+XingjiandeMacBook-Pro:Desktop jackbai$ ls
+AP English
+Aerophysics
+Bai, Xingjian.pdf
+Email.pages
+Empire Problem.pdf
+Forced Tiling.pdf
+Functional_Segtree
+Go AI
+Important Files
+Latex
+Machiavelli_Macbeth
+NLLP
+NewProg
+OI2019
+PenroseProject
+PenroseTiling_Tsinghua.pdf
+SAT
+SAT2.pdf
+System Files
+UNADJUSTEDNONRAW_thumb_126f.jpg
+admissionTicket.pdf
+movies
+music
+penrose.jpg
+托福
+白行健
+升学材料
+夏校申请
+屏幕快照 2019-04-15 下午8.24.27.png
+屏幕快照 2019-04-16 上午11.05.16.png
+屏幕快照 2019-04-20 下午5.18.00.png
+屏幕快照 2019-04-23 上午11.04.52.png
+XingjiandeMacBook-Pro:Desktop jackbai$ cd PenroseProject
+XingjiandeMacBook-Pro:PenroseProject jackbai$ ./paint.py
+-bash: ./paint.py: Permission denied
+XingjiandeMacBook-Pro:PenroseProject jackbai$ ls
+paint.py
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+??
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 55, in <module>
+    draw_test()
+  File "paint.py", line 49, in draw_test
+    font = ImageFont.truetype("consola.ttf", 40, encoding="unic")#设置字体
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageFont.py", line 275, in truetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageFont.py", line 144, in __init__
+    self.font = core.getfont(font, size, index, encoding, layout_engine=layout_engine)
+OSError: cannot open resource
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 55, in <module>
+    draw_test()
+  File "paint.py", line 50, in draw_test
+    draw.text((100, 50), u'Hello World', 'fuchsia', font)
+NameError: name 'font' is not defined
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ jupiter notebook
+-bash: jupiter: command not found
+XingjiandeMacBook-Pro:PenroseProject jackbai$ jupeter notebook
+-bash: jupeter: command not found
+XingjiandeMacBook-Pro:PenroseProject jackbai$ jupyter notebook
+[I 14:17:49.571 NotebookApp] 启动notebooks 在本地路径: /Users/jackbai/Desktop/PenroseProject
+[I 14:17:49.571 NotebookApp] 本程序运行在: http://localhost:8888/?token=157c20c58c4fc334f8ea4ad58948d1132d81b08212547654
+[I 14:17:49.571 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 14:17:49.580 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/jackbai/Library/Jupyter/runtime/nbserver-7599-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=157c20c58c4fc334f8ea4ad58948d1132d81b08212547654
+[I 14:18:10.780 NotebookApp] Creating new file in 
+[I 14:18:15.817 NotebookApp] Saving file at /untitled
+
+
+^C[I 14:19:17.117 NotebookApp] 中断
+启动notebooks 在本地路径: /Users/jackbai/Desktop/PenroseProject
+0 活跃的服务
+本程序运行在: http://localhost:8888/?token=157c20c58c4fc334f8ea4ad58948d1132d81b08212547654
+关闭服务 (y/[n])y 
+[C 14:19:19.535 NotebookApp] 关闭确定
+[I 14:19:19.536 NotebookApp] 关闭 0 服务
+XingjiandeMacBook-Pro:PenroseProject jackbai$ jupyter notebook
+[I 14:19:21.327 NotebookApp] 启动notebooks 在本地路径: /Users/jackbai/Desktop/PenroseProject
+[I 14:19:21.327 NotebookApp] 本程序运行在: http://localhost:8888/?token=dc662460b8186c0a2c21bbba4620d4df3ca76513d4bab553
+[I 14:19:21.327 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[C 14:19:21.334 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/jackbai/Library/Jupyter/runtime/nbserver-7607-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=dc662460b8186c0a2c21bbba4620d4df3ca76513d4bab553
+[I 14:19:32.752 NotebookApp] Creating new notebook in 
+[I 14:19:33.618 NotebookApp] Kernel started: 064ac6d1-99f6-4719-8832-aa719cc6c578
+[I 14:19:34.185 NotebookApp] Adapting to protocol v5.1 for kernel 064ac6d1-99f6-4719-8832-aa719cc6c578
+[I 14:20:35.945 NotebookApp] Starting buffering for 064ac6d1-99f6-4719-8832-aa719cc6c578:7f1c92ae3386401889bdf9a72c5269b7
+^C[I 14:20:44.143 NotebookApp] 中断
+启动notebooks 在本地路径: /Users/jackbai/Desktop/PenroseProject
+1 活跃的服务
+本程序运行在: http://localhost:8888/?token=dc662460b8186c0a2c21bbba4620d4df3ca76513d4bab553
+关闭服务 (y/[n])y
+[C 14:20:45.161 NotebookApp] 关闭确定
+[I 14:20:45.162 NotebookApp] 关闭 1 服务
+[I 14:20:45.475 NotebookApp] Kernel shutdown: 064ac6d1-99f6-4719-8832-aa719cc6c578
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+  File "paint.py", line 23
+    for i in [1, 255]
+                    ^
+SyntaxError: invalid syntax
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+  File "paint.py", line 22
+    int i=10;
+        ^
+SyntaxError: invalid syntax
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+  File "paint.py", line 22
+    var i = 10;
+        ^
+SyntaxError: invalid syntax
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 29, in <module>
+    draw_test()
+  File "paint.py", line 23, in draw_test
+    draw.line((20 + i, 0, 700 + i, 700), (0,0,0, i * 0.01))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 154, in line
+    ink, fill = self._getink(fill)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 112, in _getink
+    ink = self.draw.draw_ink(ink, self.mode)
+TypeError: integer argument expected, got float
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 29, in <module>
+    draw_test()
+  File "paint.py", line 23, in draw_test
+    draw.line((20 + i, 0, 700 + i, 700), (0,0,0, 0.5))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 154, in line
+    ink, fill = self._getink(fill)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 112, in _getink
+    ink = self.draw.draw_ink(ink, self.mode)
+TypeError: integer argument expected, got float
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 29, in <module>
+    draw_test()
+  File "paint.py", line 23, in draw_test
+    draw.line((20 + i, 0, 700 + i, 700), (0,0,0,0.5))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 154, in line
+    ink, fill = self._getink(fill)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 112, in _getink
+    ink = self.draw.draw_ink(ink, self.mode)
+TypeError: integer argument expected, got float
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+  File "paint.py", line 13
+    def draw_test():
+      ^
+IndentationError: expected an indented block
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+i
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+12 23
+12
+12
+
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+  File "paint.py", line 32
+    for i = in range(0, len(text)):
+          ^
+SyntaxError: invalid syntax
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+['12 23\n', '12\n', '12\n']
+['12 23', '12', '12']
+Traceback (most recent call last):
+  File "paint.py", line 36, in <module>
+    imade.show()
+NameError: name 'imade' is not defined
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+['12 23\n', '12\n', '12\n']
+['12 23', '12', '12']
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 33, in <module>
+    draw.line((p1, p2, p3, p4), black);
+NameError: name 'black' is not defined
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 33, in <module>
+    draw.line((p1, p2, p3, p4), 'black');
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/PIL/ImageDraw.py", line 156, in line
+    self.draw.draw_lines(xy, ink, width)
+SystemError: new style getargs format but argument is not a tuple
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+Traceback (most recent call last):
+  File "paint.py", line 30, in <module>
+    p4 = float(text[i + 4]);
+ValueError: could not convert string to float: 'dsfasdf'
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+1.0
+1.0
+2.0
+2.0
+2.5
+2.5
+5.0
+5.0
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+1.0
+1.0
+2.0
+2.0
+2.5
+2.5
+5.0
+5.0
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+1.0
+1.0
+2.0
+2.0
+2.5
+2.5
+5.0
+5.0
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py 
+1.0
+1.0
+2.0
+2.0
+2.5
+2.5
+5.0
+5.0
+XingjiandeMacBook-Pro:PenroseProject jackbai$ ls
+Empire Problem.pdf		main.cpp			untitled.py
+Forced Tiling.pdf		paint.py			未命名.ipynb
+PenroseTiling_Tsinghua.pdf	paint.txt
+aws.png				text.txt
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:15:32: error: expected ';' after namespace name
+using namespace basicDefinition {
+                               ^
+                               ;
+main.cpp:15:17: error: expected namespace name
+using namespace basicDefinition {
+                ^
+2 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:15:32: error: expected ';' after namespace name
+using namespace basicDefinition {
+                               ^
+                               ;
+main.cpp:15:17: error: expected namespace name
+using namespace basicDefinition {
+                ^
+2 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:34:10: error: C++ requires a type specifier for all declarations
+                friend addEdge (int fr, int to, int type) {
+                ~~~~~~ ^
+main.cpp:36:4: error: unknown type name 'edge'; did you mean 'Edge'?
+                        edge[te] = Edge(fr, to, point[fr].p, type);
+                        ^~~~
+                        Edge
+main.cpp:27:9: note: 'Edge' declared here
+        struct Edge {
+               ^
+main.cpp:36:8: warning: decomposition declarations are a C++17 extension [-Wc++17-extensions]
+                        edge[te] = Edge(fr, to, point[fr].p, type);
+                            ^~~~
+main.cpp:36:8: error: decomposition declaration cannot be declared with type 'basicDefinition::Edge'; declared type
+      must be 'auto' or reference to 'auto'
+main.cpp:36:8: error: type 'basicDefinition::Edge' decomposes into 5 elements, but only 1 names were provided
+1 warning and 4 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:36:4: error: unknown type name 'edge'; did you mean 'Edge'?
+                        edge[te] = Edge(fr, to, point[fr].p, type);
+                        ^~~~
+                        Edge
+main.cpp:27:9: note: 'Edge' declared here
+        struct Edge {
+               ^
+main.cpp:36:8: warning: decomposition declarations are a C++17 extension [-Wc++17-extensions]
+                        edge[te] = Edge(fr, to, point[fr].p, type);
+                            ^~~~
+main.cpp:36:8: error: decomposition declaration cannot be declared with type 'basicDefinition::Edge'; declared type
+      must be 'auto' or reference to 'auto'
+main.cpp:36:8: error: type 'basicDefinition::Edge' decomposes into 5 elements, but only 1 names were provided
+1 warning and 3 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:17:14: error: variable has incomplete type 'struct Edge'
+        struct Edge edge[1000010];
+                    ^
+main.cpp:17:9: note: forward declaration of 'basicDefinition::Edge'
+        struct Edge edge[1000010];
+               ^
+main.cpp:40:4: error: redefinition of 'edge'
+        } edge[1000010];
+          ^
+main.cpp:17:14: note: previous definition is here
+        struct Edge edge[1000010];
+                    ^
+2 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:25:12: error: unexpected type name 'F': expected expression
+                vector <*F> f;
+                         ^
+main.cpp:26:12: error: unexpected type name 'E': expected expression
+                vector <*E> e;
+                         ^
+main.cpp:43:8: error: assigning to 'basicDefinition::P' (aka 'basicDefinition::Point *') from incompatible type 'int'
+                        H = _H, T = _T, L = _L, R = _R, type = _type;
+                            ^~
+main.cpp:43:16: error: assigning to 'basicDefinition::P' (aka 'basicDefinition::Point *') from incompatible type 'int'
+                        H = _H, T = _T, L = _L, R = _R, type = _type;
+                                    ^~
+main.cpp:43:24: error: assigning to 'basicDefinition::P' (aka 'basicDefinition::Point *') from incompatible type 'int'
+                        H = _H, T = _T, L = _L, R = _R, type = _type;
+                                            ^~
+main.cpp:43:32: error: assigning to 'basicDefinition::P' (aka 'basicDefinition::Point *') from incompatible type 'int'
+                        H = _H, T = _T, L = _L, R = _R, type = _type;
+                                                    ^~
+6 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:25:12: error: unexpected type name 'F': expected expression
+                vector <*F> f;
+                         ^
+main.cpp:26:12: error: unexpected type name 'E': expected expression
+                vector <*E> e;
+                         ^
+2 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:58:4: error: use of undeclared identifier 'point'
+                        point[fr].E.push_back(ne);
+                        ^
+main.cpp:64:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        H.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:64:6: error: no member named 'F' in 'basicDefinition::Point'
+                        H.F.push_back(ne);
+                        ~ ^
+main.cpp:65:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        T.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:65:6: error: no member named 'F' in 'basicDefinition::Point'
+                        T.F.push_back(ne);
+                        ~ ^
+main.cpp:66:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        L.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:66:6: error: no member named 'F' in 'basicDefinition::Point'
+                        L.F.push_back(ne);
+                        ~ ^
+main.cpp:67:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        R.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:67:6: error: no member named 'F' in 'basicDefinition::Point'
+                        R.F.push_back(ne);
+                        ~ ^
+main.cpp:68:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.HL = addEdge(H, L, Long, ne);
+                        ~~^
+                          ->
+main.cpp:69:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.HR = addEdge(H, R, Long, ne);
+                        ~~^
+                          ->
+main.cpp:70:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.TL = addEdge(T, L, Short, ne);
+                        ~~^
+                          ->
+main.cpp:71:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.TR = addEdge(T, R, Short, ne);
+                        ~~^
+                          ->
+main.cpp:75:3: error: expected ';' after struct
+        }
+         ^
+         ;
+main.cpp:47:2: warning: typedef requires a name [-Wmissing-declarations]
+        typedef struct Map {
+        ^~~~~~~
+1 warning and 14 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:58:4: error: use of undeclared identifier 'point'
+                        point[fr].E.push_back(ne);
+                        ^
+main.cpp:64:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        H.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:64:6: error: no member named 'F' in 'basicDefinition::Point'
+                        H.F.push_back(ne);
+                        ~ ^
+main.cpp:65:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        T.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:65:6: error: no member named 'F' in 'basicDefinition::Point'
+                        T.F.push_back(ne);
+                        ~ ^
+main.cpp:66:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        L.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:66:6: error: no member named 'F' in 'basicDefinition::Point'
+                        L.F.push_back(ne);
+                        ~ ^
+main.cpp:67:5: error: member reference type 'basicDefinition::P' (aka 'basicDefinition::Point *') is a pointer; did you
+      mean to use '->'?
+                        R.F.push_back(ne);
+                        ~^
+                         ->
+main.cpp:67:6: error: no member named 'F' in 'basicDefinition::Point'
+                        R.F.push_back(ne);
+                        ~ ^
+main.cpp:68:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.HL = addEdge(H, L, Long, ne);
+                        ~~^
+                          ->
+main.cpp:69:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.HR = addEdge(H, R, Long, ne);
+                        ~~^
+                          ->
+main.cpp:70:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.TL = addEdge(T, L, Short, ne);
+                        ~~^
+                          ->
+main.cpp:71:6: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                        ne.TR = addEdge(T, R, Short, ne);
+                        ~~^
+                          ->
+main.cpp:75:3: error: expected ';' after struct
+        }
+         ^
+         ;
+main.cpp:47:2: warning: typedef requires a name [-Wmissing-declarations]
+        typedef struct Map {
+        ^~~~~~~
+1 warning and 14 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ \
+> 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:75:3: error: expected ';' after struct
+        }
+         ^
+         ;
+main.cpp:47:2: warning: typedef requires a name [-Wmissing-declarations]
+        typedef struct Map {
+        ^~~~~~~
+1 warning and 1 error generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:73:8: error: no member named 'LT' in 'basicDefinition::Face'
+                        ne->LT = addEdge(L, T, Short, ne);
+                        ~~  ^
+main.cpp:75:8: error: no member named 'RH' in 'basicDefinition::Face'
+                        ne->RH = addEdge(R, H, Long, ne);
+                        ~~  ^
+2 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+Undefined symbols for architecture x86_64:
+  "drawMap::drawEdge()", referenced from:
+      drawMap::drawFace() in main-ca0249.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:99:3: error: C++ requires a type specifier for all declarations
+                drawEdge();
+                ^
+main.cpp:101:12: error: unknown type name 'Map'; did you mean 'basicDefinition::Map'?
+        void draw(Map _M) {
+                  ^~~
+                  basicDefinition::Map
+main.cpp:79:5: note: 'basicDefinition::Map' declared here
+        } *Map;
+           ^
+main.cpp:102:3: error: use of undeclared identifier 'M'; did you mean 'drawMap::M'?
+                M = _M;
+                ^
+                drawMap::M
+main.cpp:84:6: note: 'drawMap::M' declared here
+        Map M;
+            ^
+main.cpp:103:3: error: use of undeclared identifier 'points'; did you mean 'drawMap::points'?
+                points.resize(0);
+                ^~~~~~
+                drawMap::points
+main.cpp:87:14: note: 'drawMap::points' declared here
+        vector <Co> points;
+                    ^
+main.cpp:104:3: error: use of undeclared identifier 'points'; did you mean 'drawMap::points'?
+                points.resize(M->points.size());
+                ^~~~~~
+                drawMap::points
+main.cpp:87:14: note: 'drawMap::points' declared here
+        vector <Co> points;
+                    ^
+main.cpp:104:17: error: use of undeclared identifier 'M'; did you mean 'drawMap::M'?
+                points.resize(M->points.size());
+                              ^
+                              drawMap::M
+main.cpp:84:6: note: 'drawMap::M' declared here
+        Map M;
+            ^
+main.cpp:108:1: error: extraneous closing brace ('}')
+}
+^
+7 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:36:38: error: expected ')'
+                Edge (P _fr, P _to, int _type, F _f. int _id)
+                                                   ^
+main.cpp:36:8: note: to match this '('
+                Edge (P _fr, P _to, int _type, F _f. int _id)
+                     ^
+main.cpp:37:44: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                {fr = _fr, to = _to, type = _type; f = _f. id = _id;}
+                                                       ~~^
+                                                         ->
+main.cpp:37:44: error: incomplete definition of type 'basicDefinition::Face'
+                {fr = _fr, to = _to, type = _type; f = _f. id = _id;}
+                                                       ~~^
+main.cpp:25:17: note: forward declaration of 'basicDefinition::Face'
+        typedef struct Face *F;
+                       ^
+main.cpp:37:51: error: use of undeclared identifier '_id'; did you mean 'id'?
+                {fr = _fr, to = _to, type = _type; f = _f. id = _id;}
+                                                                ^~~
+                                                                id
+main.cpp:34:13: note: 'id' declared here
+                int type, id;
+                          ^
+main.cpp:60:15: error: no matching constructor for initialization of 'basicDefinition::Edge'
+                        E ne = new Edge(fr, to, type, f, edges.size());
+                                   ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:36:3: note: candidate constructor not viable: requires 4 arguments, but 5 were provided
+                Edge (P _fr, P _to, int _type, F _f. int _id)
+                ^
+main.cpp:31:9: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 5 were
+      provided
+        struct Edge {
+               ^
+main.cpp:35:3: note: candidate constructor not viable: requires 0 arguments, but 5 were provided
+                Edge () {}
+                ^
+main.cpp:98:32: error: no viable overloaded operator[] for type 'vector<basicDefinition::P>' (aka
+      'vector<basicDefinition::Point *>')
+                for (int i = 0; i < M->points[to]->Out.size(); i ++) {
+                                    ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:99:23: error: no viable overloaded operator[] for type 'vector<basicDefinition::P>' (aka
+      'vector<basicDefinition::Point *>')
+                        if (fr == M->points[to]->Out[i]->to)
+                                  ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:100:21: error: no viable overloaded operator[] for type 'vector<basicDefinition::P>' (aka
+      'vector<basicDefinition::Point *>')
+                                return M->points[to]->Out[i]->id;
+                                       ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:108:7: error: cannot initialize a variable of type 'int' with an rvalue of type 'void'
+                int ei2 = findReverseEdge(ei);
+                    ^     ~~~~~~~~~~~~~~~~~~~
+main.cpp:116:16: error: no viable overloaded operator[] for type 'vector<bool>'
+                if (dealPoint[f->H] && dealPoint[f->L]) {
+                    ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:116:35: error: no viable overloaded operator[] for type 'vector<bool>'
+                if (dealPoint[f->H] && dealPoint[f->L]) {
+                                       ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:119:21: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->L] && dealPoint[f->T]) {
+                         ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:119:40: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->L] && dealPoint[f->T]) {
+                                            ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:122:21: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->T] && dealPoint[f->R]) {
+                         ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:122:40: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->T] && dealPoint[f->R]) {
+                                            ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:125:21: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->R] && dealPoint[f->H]) {
+                         ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:125:40: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->R] && dealPoint[f->H]) {
+                                            ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:128:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->HL);
+                ^~~~~~~~
+main.cpp:103:7: note: candidate function not viable: requires 2 arguments, but 1 was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+main.cpp:129:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->LT);
+                ^~~~~~~~
+main.cpp:103:7: note: candidate function not viable: requires 2 arguments, but 1 was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:36:38: error: expected ')'
+                Edge (P _fr, P _to, int _type, F _f. int _id)
+                                                   ^
+main.cpp:36:8: note: to match this '('
+                Edge (P _fr, P _to, int _type, F _f. int _id)
+                     ^
+main.cpp:37:44: error: member reference type 'basicDefinition::F' (aka 'basicDefinition::Face *') is a pointer; did you
+      mean to use '->'?
+                {fr = _fr, to = _to, type = _type; f = _f. id = _id;}
+                                                       ~~^
+                                                         ->
+main.cpp:37:44: error: incomplete definition of type 'basicDefinition::Face'
+                {fr = _fr, to = _to, type = _type; f = _f. id = _id;}
+                                                       ~~^
+main.cpp:25:17: note: forward declaration of 'basicDefinition::Face'
+        typedef struct Face *F;
+                       ^
+main.cpp:37:51: error: use of undeclared identifier '_id'; did you mean 'id'?
+                {fr = _fr, to = _to, type = _type; f = _f. id = _id;}
+                                                                ^~~
+                                                                id
+main.cpp:34:13: note: 'id' declared here
+                int type, id;
+                          ^
+main.cpp:60:15: error: no matching constructor for initialization of 'basicDefinition::Edge'
+                        E ne = new Edge(fr, to, type, f, edges.size());
+                                   ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:36:3: note: candidate constructor not viable: requires 4 arguments, but 5 were provided
+                Edge (P _fr, P _to, int _type, F _f. int _id)
+                ^
+main.cpp:31:9: note: candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 5 were
+      provided
+        struct Edge {
+               ^
+main.cpp:35:3: note: candidate constructor not viable: requires 0 arguments, but 5 were provided
+                Edge () {}
+                ^
+main.cpp:98:32: error: no viable overloaded operator[] for type 'vector<basicDefinition::P>' (aka
+      'vector<basicDefinition::Point *>')
+                for (int i = 0; i < M->points[to]->Out.size(); i ++) {
+                                    ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:99:23: error: no viable overloaded operator[] for type 'vector<basicDefinition::P>' (aka
+      'vector<basicDefinition::Point *>')
+                        if (fr == M->points[to]->Out[i]->to)
+                                  ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:100:21: error: no viable overloaded operator[] for type 'vector<basicDefinition::P>' (aka
+      'vector<basicDefinition::Point *>')
+                                return M->points[to]->Out[i]->id;
+                                       ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<basicDefinition::Point
+      *, std::__1::allocator<basicDefinition::Point *> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:108:7: error: cannot initialize a variable of type 'int' with an rvalue of type 'void'
+                int ei2 = findReverseEdge(ei);
+                    ^     ~~~~~~~~~~~~~~~~~~~
+main.cpp:116:16: error: no viable overloaded operator[] for type 'vector<bool>'
+                if (dealPoint[f->H] && dealPoint[f->L]) {
+                    ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:116:35: error: no viable overloaded operator[] for type 'vector<bool>'
+                if (dealPoint[f->H] && dealPoint[f->L]) {
+                                       ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:119:21: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->L] && dealPoint[f->T]) {
+                         ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:119:40: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->L] && dealPoint[f->T]) {
+                                            ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:122:21: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->T] && dealPoint[f->R]) {
+                         ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:122:40: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->T] && dealPoint[f->R]) {
+                                            ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:125:21: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->R] && dealPoint[f->H]) {
+                         ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:125:40: error: no viable overloaded operator[] for type 'vector<bool>'
+                else if (dealPoint[f->R] && dealPoint[f->H]) {
+                                            ~~~~~~~~~^~~~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2338:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n)       {return __make_ref(__n);}
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:2339:47: note: candidate function not viable: no known
+      conversion from 'basicDefinition::P' (aka 'basicDefinition::Point *') to 'std::__1::vector<bool,
+      std::__1::allocator<bool> >::size_type' (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const {return __make_ref(__n);}
+                                              ^
+main.cpp:128:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->HL);
+                ^~~~~~~~
+main.cpp:103:7: note: candidate function not viable: requires 2 arguments, but 1 was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+main.cpp:129:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->LT);
+                ^~~~~~~~
+main.cpp:103:7: note: candidate function not viable: requires 2 arguments, but 1 was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 poaint.py
+(null): can't open file 'poaint.py': [Errno 2] No such file or directory
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 point.py
+(null): can't open file 'point.py': [Errno 2] No such file or directory
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py
+1.0
+1.0
+2.0
+2.0
+2.5
+2.5
+5.0
+5.0
+XingjiandeMacBook-Pro:PenroseProject jackbai$ python3 paint.py
+1.0
+1.0
+2.0
+2.0
+2.5
+2.5
+5.0
+5.0
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 
+XingjiandeMacBook-Pro:PenroseProject jackbai$ g++ main.cpp 
+main.cpp:88:35: error: unknown type name 'co'
+        Co operator + (const Co x, const co y) {
+                                         ^
+main.cpp:91:35: error: unknown type name 'co'
+        Co operator - (const Co x, const co y) {
+                                         ^
+main.cpp:98:9: error: invalid operands to binary expression
+      ('computingGeometry::Co' (aka 'pair<long double, long double>') and
+      'computingGeometry::Co')
+                x = x - o;
+                    ~ ^ ~
+main.cpp:91:5: note: candidate function not viable: no known conversion from
+      'computingGeometry::Co' (aka 'pair<long double, long double>') to
+      'const int' for 2nd argument
+        Co operator - (const Co x, const co y) {
+           ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:752:1: note: 
+      candidate template ignored: could not match 'reverse_iterator' against
+      'pair'
+operator-(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_I...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1193:1: note: 
+      candidate template ignored: could not match 'move_iterator' against 'pair'
+operator-(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1602:1: note: 
+      candidate template ignored: could not match '__wrap_iter' against 'pair'
+operator-(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:530:11: note: 
+      candidate template ignored: could not match 'fpos' against 'pair'
+streamoff operator-(const fpos<_StateT>& __x, const fpos<_StateT>& __y)
+          ^
+main.cpp:102:9: error: invalid operands to binary expression
+      ('computingGeometry::Co' (aka 'pair<long double, long double>') and
+      'computingGeometry::Co')
+                y = y + o;
+                    ~ ^ ~
+main.cpp:88:5: note: candidate function not viable: no known conversion from
+      'computingGeometry::Co' (aka 'pair<long double, long double>') to
+      'const int' for 2nd argument
+        Co operator + (const Co x, const co y) {
+           ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:761:1: note: 
+      candidate template ignored: could not match 'reverse_iterator' against
+      'pair'
+operator+(typename reverse_iterator<_Iter>::difference_type __n, const r...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1202:1: note: 
+      candidate template ignored: could not match 'move_iterator' against 'pair'
+operator+(typename move_iterator<_Iter>::difference_type __n, const move...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1615:1: note: 
+      candidate template ignored: could not match '__wrap_iter' against 'pair'
+operator+(typename __wrap_iter<_Iter>::difference_type __n,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3765:1: note: 
+      candidate template ignored: could not match 'basic_string' against 'pair'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3778:1: note: 
+      candidate template ignored: could not match 'const _CharT *' against
+      'computingGeometry::Co' (aka 'pair<long double, long double>')
+operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Alloc...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3790:1: note: 
+      candidate template ignored: could not match 'basic_string' against 'pair'
+operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3801:1: note: 
+      candidate template ignored: could not match 'basic_string' against 'pair'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const ...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:3813:1: note: 
+      candidate template ignored: could not match 'basic_string' against 'pair'
+operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
+^
+main.cpp:107:13: error: invalid operands to binary expression
+      ('computingGeometry::Co' (aka 'pair<long double, long double>') and
+      'computingGeometry::Co')
+                return (y - o) * lenC + o;
+                        ~ ^ ~
+main.cpp:91:5: note: candidate function not viable: no known conversion from
+      'computingGeometry::Co' (aka 'pair<long double, long double>') to
+      'const int' for 2nd argument
+        Co operator - (const Co x, const co y) {
+           ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:752:1: note: 
+      candidate template ignored: could not match 'reverse_iterator' against
+      'pair'
+operator-(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_I...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1193:1: note: 
+      candidate template ignored: could not match 'move_iterator' against 'pair'
+operator-(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:1602:1: note: 
+      candidate template ignored: could not match '__wrap_iter' against 'pair'
+operator-(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y...
+^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:530:11: note: 
+      candidate template ignored: could not match 'fpos' against 'pair'
+streamoff operator-(const fpos<_StateT>& __x, const fpos<_StateT>& __y)
+          ^
+main.cpp:127:32: error: no viable overloaded operator[] for type
+      'vector<basicDefinition::P>' (aka 'vector<basicDefinition::Point *>')
+                for (int i = 0; i < M->points[to]->Out.size(); i ++) {
+                                    ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: 
+      candidate function not viable: no known conversion from
+      'basicDefinition::P' (aka 'basicDefinition::Point *') to
+      'std::__1::vector<basicDefinition::Point *,
+      std::__1::allocator<basicDefinition::Point *> >::size_type'
+      (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: 
+      candidate function not viable: no known conversion from
+      'basicDefinition::P' (aka 'basicDefinition::Point *') to
+      'std::__1::vector<basicDefinition::Point *,
+      std::__1::allocator<basicDefinition::Point *> >::size_type'
+      (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:128:23: error: no viable overloaded operator[] for type
+      'vector<basicDefinition::P>' (aka 'vector<basicDefinition::Point *>')
+                        if (fr == M->points[to]->Out[i]->to)
+                                  ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: 
+      candidate function not viable: no known conversion from
+      'basicDefinition::P' (aka 'basicDefinition::Point *') to
+      'std::__1::vector<basicDefinition::Point *,
+      std::__1::allocator<basicDefinition::Point *> >::size_type'
+      (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: 
+      candidate function not viable: no known conversion from
+      'basicDefinition::P' (aka 'basicDefinition::Point *') to
+      'std::__1::vector<basicDefinition::Point *,
+      std::__1::allocator<basicDefinition::Point *> >::size_type'
+      (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:129:21: error: no viable overloaded operator[] for type
+      'vector<basicDefinition::P>' (aka 'vector<basicDefinition::Point *>')
+                                return M->points[to]->Out[i]->id;
+                                       ~~~~~~~~~^~~
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:644:47: note: 
+      candidate function not viable: no known conversion from
+      'basicDefinition::P' (aka 'basicDefinition::Point *') to
+      'std::__1::vector<basicDefinition::Point *,
+      std::__1::allocator<basicDefinition::Point *> >::size_type'
+      (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY reference       operator[](size_type __n);
+                                              ^
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:645:47: note: 
+      candidate function not viable: no known conversion from
+      'basicDefinition::P' (aka 'basicDefinition::Point *') to
+      'std::__1::vector<basicDefinition::Point *,
+      std::__1::allocator<basicDefinition::Point *> >::size_type'
+      (aka 'unsigned long') for 1st argument
+    _LIBCPP_INLINE_VISIBILITY const_reference operator[](size_type __n) const;
+                                              ^
+main.cpp:137:7: error: cannot initialize a variable of type 'int' with an rvalue
+      of type 'void'
+                int ei2 = findReverseEdge(ei);
+                    ^     ~~~~~~~~~~~~~~~~~~~
+main.cpp:163:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->HL);
+                ^~~~~~~~
+main.cpp:132:7: note: candidate function not viable: requires 2 arguments, but 1
+      was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+main.cpp:164:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->LT);
+                ^~~~~~~~
+main.cpp:132:7: note: candidate function not viable: requires 2 arguments, but 1
+      was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+main.cpp:165:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->TR);
+                ^~~~~~~~
+main.cpp:132:7: note: candidate function not viable: requires 2 arguments, but 1
+      was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+main.cpp:166:3: error: no matching function for call to 'drawEdge'
+                drawEdge (f->RH);
+                ^~~~~~~~
+main.cpp:132:7: note: candidate function not viable: requires 2 arguments, but 1
+      was provided
+        void drawEdge (int ei, int fi) { //find another face
+             ^
+13 errors generated.
+XingjiandeMacBook-Pro:PenroseProject jackbai$ 

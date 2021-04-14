@@ -1,0 +1,71 @@
+def LIFO_queue(s):
+    '''
+    You are required to implement a Last-In-First-Out (FIFO) queue, which is also called a stack.
+
+    Each operation can be expressed as a list of variables. You need to support the following three kinds of operations:
+        ["put", s]: Put string s into the top of the stack.
+        [“qsize”]: Output the current size of the stack as an integer.
+        ["get"]: Output and remove the string from the top of the stack.
+
+    You are given ops, a list of operations. Compile all the outputs into a list, and output the list.
+
+    Example:
+    >>> foo([["put", "tiwl"], ["put", "qu"], ["qsize"], ["get"], ["get"], ["qsize"]])
+    [2, "qu", "tiwl", 0]
+
+    Note:
+    You are encouraged to use the queue module in Python.
+    '''
+
+
+def test_candidate():
+
+    # Check some simple cases
+    assert LIFO_queue([["put", "tiwl"], ["put", "qu"], ["qsize"], ["get"], ["get"], ["qsize"]])==[2, "qu", "tiwl", 0], "wrong #1"
+    assert LIFO_queue([["put", "ws"], ["put", "r"], ["get"], ["get"], ["put", "mozd"], ["put", "fim"], ["put", "pygp"], ["get"]])==["r", "ws", "pygp"], "wrong #2"
+    assert LIFO_queue([["put", "gelc"], ["get"], ["put", "kl"], ["put", "n"], ["put", "cpe"], ["put", "pa"], ["get"], ["qsize"], ["qsize"], ["get"]])==["gelc", "pa", 3, 3, "cpe"], "wrong #3"
+    assert LIFO_queue([["put", "sn"], ["put", "z"], ["put", "tjs"], ["get"], ["qsize"], ["qsize"], ["get"], ["get"], ["qsize"], ["put", "nrgl"], ["put", "lljl"], ["get"], ["put", "e"], ["get"], ["get"], ["put", "p"], ["get"], ["qsize"], ["put", "pnyv"], ["qsize"]])==["tjs", 2, 2, "z", "sn", 0, "lljl", "e", "nrgl", "p", 0, 1], "wrong #4"
+    assert LIFO_queue()==, "wrong #5"
+
+    # Check some edge cases that are easy to work out by hand.
+    assert LIFO_queue([])==[], "wrong #5"
+    assert LIFO_queue([["put", "hello world"]])==[], "wrong #6"
+    assert LIFO_queue([["qsize"]])==[0], "wrong #7"
+
+    # Don't remove this line:
+    # we make sure the tests end with a print to stdout to prevent the AI from cheating by calling "exit" mid-function
+    print('\nUnit tests passed! Woo-hoo!')
+test_candidate()
+
+
+
+def LIFO_queue(s):
+    '''
+    You are required to implement a Last-In-First-Out (FIFO) queue, which is also called a stack.
+
+    Each operation can be expressed as a list of variables. You need to support the following three kinds of operations:
+        ["put", s]: Put string s into the top of the stack.
+        [“qsize”]: Output the current size of the stack as an integer.
+        ["get"]: Output and remove the string from the top of the stack.
+
+    You are given ops, a list of operations. Compile all the outputs into a list, and output the list.
+
+    Example:
+    >>> foo([["put", "tiwl"], ["put", "qu"], ["qsize"], ["get"], ["get"], ["qsize"]])
+    [2, "qu", "tiwl", 0]
+
+    Note:
+    You are encouraged to use the queue module in Python.
+    '''
+    from queue import Queue
+
+    q = LifoQueue()
+    l = []
+    for op in ops:
+        if op[0] == "put":
+            q.put(op[1])
+        elif op[0] == "qsize":
+            l.append(q.qsize())
+        elif op[0] == "get":
+            l.append(q.get())
+    return l

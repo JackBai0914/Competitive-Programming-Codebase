@@ -1,0 +1,1 @@
+g++ bfs.cpp -o bfs -std=c++11 -O3

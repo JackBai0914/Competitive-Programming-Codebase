@@ -1,0 +1,15 @@
+1. Brute force
+finished input: 0.011237
+answer gained: 74
+finished input: 0.022519
+answer gained: 8044
+finished input: 2.57535
+answer gained: 213371302
+finished input: 1.04944
+answer gained: 1511051
+finished input: 1.00636
+answer gained: 5598219
+
+2. Optimal Climbing
+answer gained: 74
+

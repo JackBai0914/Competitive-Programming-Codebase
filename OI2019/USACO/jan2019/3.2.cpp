@@ -1,0 +1,77 @@
+#include <iostream>
+#include <algorithm>
+#include <ctime>
+#include <cstdio>
+#include <cstring>
+#include <cmath>
+#include <cstdlib>
+#include <bitset>
+#include <map>
+#include <vector>
+#include <queue>
+#include <stack>
+using namespace std;
+const int mod = 1e9 + 7;
+const int V = 1e9;
+typedef long long ll;
+int n, k;
+
+
+int cnt = 0;
+int v[100010];
+int c[100010];
+
+void dfs(int x) {
+	if (x == n + 1) {
+		for (int i = 1; i <= n - k + 1; i ++) {
+			int mn = 1e9;
+			for (int j = 0; j < k; j ++)
+				mn = min(mn, c[i + j]);
+			if (mn != v[i])
+				return ;
+		}
+		cnt ++;
+		return ;
+	}
+	for (int i = 999999995; i <= 1000000000; i ++) {
+		c[x] = i;
+		dfs(x + 1);
+		c[x] = 0;
+	}
+}
+
+
+ll S;
+void get_seed() {
+	freopen("seed", "r", stdin);
+	cin >> S;
+	fclose(stdin);
+	S = S * 12345 % mod;
+	freopen("seed", "w", stdout);
+	cout << S << endl;
+	fclose(stdout);
+	srand(S);
+}
+
+int main() {
+	// freopen("tracking2.in", "r", stdin);
+	get_seed();
+	while (true) {
+		freopen("tracking2.in", "w", stdout);
+		cerr << "seed : " << S << endl;
+		cnt = 0;
+		n = 8;
+		k = rand() % n + 1;
+		for (int i = 1; i <= n - k + 1; i ++)
+			v[i] = rand() % 6 + 999999995;
+		dfs(1);
+		if (cnt == 0)
+			continue ;
+		cout << n << " " << k << endl;
+		for (int i = 1; i <= n - k + 1; i ++)
+			cout << v[i] << " ";
+		cout << endl;
+		return 0;
+	}
+	return 0;
+}
